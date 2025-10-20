@@ -1,0 +1,31 @@
+name: acct-analytics-base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fredapi
+  - imbalanced-learn
+  - ipykernel
+  - joblib
+  - jupyterlab
+  - matplotlib
+  - nltk
+  - numpy
+  - numpy-financial
+  - openpyxl
+  - pandas=2.2.*
+  - pip
+  - pyarrow
+  - pytables
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - spacy
+  - statsmodels
+  - tables
+  - textblob
+  - tmtoolkit
+  - yfinance
+  - pip:
+    - wrds
